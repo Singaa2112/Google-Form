@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Engagement Form</title>
+</head>
+
+<body>
+    <h2>Employee Engagement Survey</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="my name" id="name">
+        </div>
+        <br>
+        <label for="dept">What department do you work in?</label>
+        <div>
+            <input type="text" name="my dept" id="dept">
+        </div>
+        <br>
+        <label for="role">What is your role?</label>
+        <div>
+            <input type="text" name="my role" id="role">
+        </div>
+        <br>
+
+        <div>
+            What is your Gender?
+            Male <input type="radio" name="my gender">
+            Female <input type="radio" name="my gender">
+            Others <input type="radio" name="my gender">
+        </div>
+        <br>
+
+        <label for="Boss">Who is your boss?</label>
+        <div>
+            <select name="Boss" id="Boss">
+                <option value="Own Boss">Own Boss</option>
+                <option value="None">None</option>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+        
+
+    </form>
+</body>
+
+</html>
